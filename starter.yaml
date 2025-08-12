@@ -1,5 +1,5 @@
-trigger:
-- main
+#trigger:
+#- main
 
 pool:
   vmImage: ubuntu-latest
@@ -8,6 +8,7 @@ pr:
  branches: 
    include:
      - main
+     - prtest
 
 steps:
 - script: echo Hello, world!
