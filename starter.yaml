@@ -17,4 +17,5 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo task name
+    echo display name
   displayName: 'Run a multi-line script'
